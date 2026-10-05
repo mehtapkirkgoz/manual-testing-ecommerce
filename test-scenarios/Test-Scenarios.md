@@ -8,7 +8,7 @@ Test Scenarios
         -Verify login with invalid password.
         -Verify login with invalid email/username.
         -Verify login with empty required fields.
-        -Verify password visibility bahevior.
+        -Verify password visibility bahavior.
         -Verify user can log out successfully.
 
     2. Registration Scenarios

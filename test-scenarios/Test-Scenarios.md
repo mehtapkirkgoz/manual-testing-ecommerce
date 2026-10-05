@@ -29,7 +29,7 @@ Test Scenarios
         -Verify search results are relevant to the entered keyword.
         -Verify search behavior with special characters.
 
-    4. Shopping Cars Scenarios
+    4. Shopping Cart Scenarios
 
         -Verify a product can be added to the shopping cart.
         -Verify multible products can be added to the cart.

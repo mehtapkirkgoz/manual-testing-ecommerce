@@ -8,7 +8,8 @@ Test Steps:
     4. Click the login button
 Test Data: Valid username/email and valid password
 Expected Result: User should be logged in successfully and redirected to the appropriate page
-Status: Not Run
+Actual Result: The user was successfully logged in and redirected to the My Account page
+Status: Pass
 
 
 Test Case ID: TC_LOGIN_002
@@ -21,7 +22,8 @@ Test Steps:
     4. Click the login button
 Test Data: Valid username/email and invalid password
 Expected Result: User should not be logged in and an appropriate error message should be displayed
-Status: Not Run
+Actual Result: The login attempt was rejected and the message "Invalid email or password" was displayed
+Status: Pass
 
 
 Test Vase ID: TC_LOGIN_003
@@ -34,7 +36,8 @@ Test Steps:
     4. Click the login button
 Test Data: Invalid username/email
 Expected Result: User should not be logged in and appropriate error message should be displayed
-Status: Not Run
+Actual Result: The login attempt was rejected and the message "Invalid email or password" was displayed
+Status: Pass
 
 
 Test Vase ID: TC_LOGIN_004
@@ -47,7 +50,8 @@ Test Steps:
     4. Click the login button
 Test Data: Empty username/email and password
 Expected Result: User should not be logged in and required field validation messages should be displayed
-Status: Not Run
+Actual Result: The login attempt was rejected. The message "Email is required" was displayed and the user remained on the login page
+Status: Pass
 
 
 Test Vase ID: TC_LOGIN_005
@@ -60,4 +64,5 @@ Test Steps:
     4. Click the login button
 Test Data: Valid username/email and empty password
 Expected Result: User should not be logged in and a password validation message should be displayed
-Status: Not Run
+Actual Result: The login attempt was rejected. The message "Password is required" was displayed and the user remained on the login page
+Status: Pass

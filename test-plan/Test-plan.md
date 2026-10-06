@@ -1,9 +1,9 @@
 Test Plan
 
     1. Project Overview("What is about this project and what we are testing here?")
-        
-        This project focuses on manual testing of an e-commerce web application.
-        The main purpose is to test core user flows and practice fundamental software testing techniques.
+        This project focuses on manual testing of the Practice Software Testing (Toolshop) e-commerce web application.
+
+        The main purpose is to evaluate core user flows such as login, registration, product search, and shopping cart functionality while practicing fundamental software testing techniques.
 
     2. Test Objectives("What is the goal of this test?")
 

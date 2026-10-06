@@ -32,7 +32,7 @@ Test Scenarios
     4. Shopping Cart Scenarios
 
         -Verify a product can be added to the shopping cart.
-        -Verify multible products can be added to the cart.
+        -Verify multiple products can be added to the cart.
         -Verify product quantity can be increased.
         -Verify product quantity can be decreased.
         -Verify a product can be removed from the cart.

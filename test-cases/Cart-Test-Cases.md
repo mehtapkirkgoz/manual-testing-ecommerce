@@ -8,7 +8,8 @@ Test Steps:
     4. Open the shopping cart
 Test Data: Existing product
 Expected Result: The selected product should be added to the shopping cart successfully
-Status: Not Run 
+Actual Result: The selected product was added to the shopping cart successfully
+Status: Pass
 
 
 Test Case ID: TC_CART_002
@@ -23,7 +24,8 @@ Test Steps:
     6. Open the shopping cart
 Test Data: Two existing products
 Expected Result: Both selected products should be added to the shopping cart successfully
-Status: Not Run 
+Actual Result: Both selected product were added to the shopping cart successfully
+Status: Pass 
 
 
 Test Case ID: TC_CART_003
@@ -37,7 +39,8 @@ Test Steps:
     5. Observe the product quantity and cart total
 Test Data: Product quantity: 2
 Expected Result: The product quantity should decrease by one and the cart total should be updated correctly
-Status: Not Run
+Actual Result: The product quantity was decreased successfully and the cart total was updated correctly
+Status: Pass
 
 
 Test Case ID: TC_CART_004
@@ -50,7 +53,8 @@ Test Steps:
     4. Click the Remove button
 Test Data: Existing product in the shopping cart
 Expected Result: The product should be removed from the shopping cart and the cart total should be updated correctly
-Status: Not Run
+Actual Result: The product was removed from the shopping cart and the cart total was updated correctly
+Status: Pass
 
 
 Test Case ID: TC_CART_005
@@ -65,7 +69,8 @@ Test Steps:
     6. Compare the calculated amount with the cart total.
 Test Data: Product unit price and quantity.
 Expected Result: The cart total should be equal to the product unit price multiplied by the selected quantity.
-Status: Not Run
+Actual Result: The cart total matched the manually calculated expected total
+Status: Pass
 
 
 Test Case ID: TC_CART_006
@@ -75,9 +80,27 @@ Test Steps:
     1. Open the application
     2. Open the Shopping cart
     3. Verify that there is at least one item in the shopping cart.
-    4. randomly browse through the pages
+    4. Navigate to different pages of the application
     5. Open the Shopping cart
     6. Confirm that the contents of the shopping cart are still the same
 Test Data: At least one product in the shopping cart
 Expected Result: The shopping cart contents are preserved when navigating between pages
-Status: Not Run
+Actual Result: The shopping cart contents were preserved while navigating between pages
+Status: Pass
+
+
+Test Case ID: TC_CART_007
+Test Scenario: Verify shopping cart contents are synchronized across browser tabs
+Precondition: The user must be logged in and at least one product must be in the shopping cart
+Test Steps:
+    1. Open the application
+    2. Add a product to the shopping cart
+    3. Verify that the product is visible in the cart.
+    4. Open the application in a new browser tab
+    5. Open the shopping cart in the new tab
+    6. Compare the cart contents between both tabs
+Test Data: At least one product in the shopping cart
+Expected Result: The shopping cart contents should be consistent across browser tabs for the same logged-in user
+Actual Result: The product was visible in the original tab but was not visible in the new tab
+Status: Fail
+Related Bug: BUG_002

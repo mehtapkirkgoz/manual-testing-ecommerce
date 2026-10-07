@@ -69,3 +69,39 @@ Priority: Medium
 Status: Open
 
 Related Test Case: TC_CART_006
+
+
+Bug ID: BUG_003
+
+Title: Registered user account is no longer recognized after session expiration
+
+Environment:
+Windows 11
+Google Chrome
+Practice Software Testing
+
+Precondition: A valid customer account must already exist
+
+Steps to Reproduce:
+    1. Register a new customer account
+    2. Log in successfully with the registered email and password
+    3. Wait until the session expires and the user is logged out automatically
+    4. Attempt to log in again using the same email and password
+    5. Observe the login result
+    6. Navigate to the registration page 
+    7. Enter different personal information but use the same email address and password
+    8. Submit the registration form
+
+Actual Result: 
+-The existing credentials are rejected with the message 'Invalid email or password'
+-The same email address can the be used to register a new account successfully
+
+Expected Result: The existing accound should remain available after session expiration. The ıuser should be able to log in again using the same valid credentials, and the same email address should not be accepted for a new registration.
+
+Severity: High
+
+Priority: High
+
+Status: Open
+
+Reproducibility: Reproduced more than once

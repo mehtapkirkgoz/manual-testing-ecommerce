@@ -185,3 +185,29 @@ manual-testing-ecommerce
 └── test-design
     ├── Equivalence-Partitioning.md
     └── Boundary-Value-Analysis.md
+
+---
+
+## What I Learned
+
+During this project, I practiced how to:
+
+- Convert high-level scenarios into detailed test cases
+- Define preconditions, test data, expected results, and actual results
+- Distinguish between positive and negative testing
+- Avoid making assumptions when requirements are unclear
+- Identify missing or ambiguous requirements
+- Execute test cases against a real application
+- Document reproducible defects
+- Determine severity and priority
+- Link failed test cases with related bug reports
+- Apply Equivalence Partitioning and Boundary Value Analysis
+- Use Git and GitHub to manage QA documentation
+
+---
+
+## Project Status
+
+Completed.
+
+This project represents my first structured manual software testing portfolio project and will be followed by additional projects focusing on API testing, SQL validation, and test automation.
